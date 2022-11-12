@@ -1,0 +1,103 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 530px;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    transition: .6s;
+
+    &__wrapper{
+        background-color: $darkblue;
+        width: 1400px;
+        height: 150px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        width: 1200px;
+    }
+
+    &__forms{
+        width: 800px;
+        height: 80px;
+        background-color: $white;
+        border-radius: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    &__input{
+        padding: 13px 190px 13px 10px;
+        border-radius: 10px;
+        border: 1px solid $darkblue;
+        outline: none;
+
+        &::placeholder{
+            color: $darkblue;
+        }
+    }
+
+    &__button{
+        color: $white;
+        background-color: $darkblue;
+        padding: 13px 43px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 10px;
+        cursor: pointer;
+
+        &:hover{
+            color: $darkblue;
+            background-color: $white;
+            border: 2px solid $darkblue;
+        }
+    }
+
+    h2{
+        color: $white;
+        width: 350px;
+        text-transform: capitalize;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+
+    &__list{
+        display: flex;
+        flex: 1;
+        color: $darkblue;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 60px 0;
+        gap: 3.5rem;
+    }
+
+    &__icons{
+        color: $darkblue;
+        display: flex;
+        justify-content: right;
+        margin-top: -90px;
+        gap: 3rem;
+    }
+
+    &__icon{
+        font-size: 30px;
+
+        &:hover{
+            opacity: .7;
+        }
+    }
+
+    &__buttom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        border-top: 1px solid $grey;
+        padding-top: 50px;
+    }
+    
+
+}

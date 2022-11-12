@@ -1,0 +1,299 @@
+@media (max-width: 768px){
+
+    .container{
+        width: 576px  + 20px;
+    }
+}
+
+@media (max-width: 992px){
+
+    .container{
+        width: 992px  + 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+
+    .container{
+        width: 100%;
+        padding: 1.5rem 0;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .navbar__nav, .search, .dropdown{
+        display: none;
+    }
+
+    .header {
+
+        width: 100%;
+
+        .logo{
+            margin: auto;
+        }
+    }
+
+    .partners, .products, .adoption{
+        display: none;
+    }
+
+    // new section finished
+    .new {
+
+        width: 100%;
+
+        &__btn{
+            position: absolute;
+            width: 98%;
+            right: 5px;
+            top: 2800px;
+        }
+
+        .grid{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+
+            &__card{
+                width: 192px;
+                height: 322px;
+                padding: 10px 10px;
+                margin: 0;
+
+                h3{
+                    font-size: 16px;
+                    margin-left: 6px;
+                }
+
+                p{
+                    font-size: 14px;
+                }
+
+                strong{
+                    font-size: 16px;
+                }
+
+                .img{
+                    width: 170px;
+                    height: 170px;
+                    margin-right: 5%;
+                }
+            }
+        }
+    }
+
+    //  knowledge section finished
+    .knowledge {
+
+        width: 100%;
+
+        &__btn-second{
+            position: absolute;
+            width: 95%;
+            left: 10px;
+            top: 5460px;
+        }
+         
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            flex-direction: column;
+            justify-items: center;
+    
+            &__card{
+                height: 440px;
+                box-shadow: 0 2px 5px $grey;
+                padding: 10px 15px;
+                border-radius: 20px;
+                transition: .5s;
+            }
+
+            h3{
+                margin-left: 6px;
+            }
+
+            p{
+                left: 6px;
+            }
+        }
+    }
+
+    // footer section finished
+    .footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        height: 650px;
+        background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+        transition: .6s;
+    
+        &__wrapper{
+            flex-direction: column;
+            background-color: $darkblue;
+            width: 390px;
+            height: 250px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #000;
+            margin-top: 50px;
+            margin: 0 auto;
+        }
+    
+        &__forms{
+            width: 370px;
+            height: 140px;
+            background-color: $white;
+            border-radius: 20px;
+            align-items: center;
+            display: flex;
+            margin: 15px;
+            justify-content: center;
+            margin-right: 16px;
+            flex-direction: column;
+        }
+    
+        &__input{
+            width: 94%;
+            padding: 13px 170px 13px 10px;
+            border-radius: 10px;
+            border: 1px solid $darkblue;
+            outline: none;
+    
+            &::placeholder{
+                color: $darkblue;
+            }
+        }
+    
+        &__button{
+            color: $white;
+            background-color: $darkblue;
+            padding: 13px 43px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            width: 94%;
+            margin-right: 12px;
+            margin-top: 12px;
+    
+            &:hover{
+                color: $darkblue;
+                background-color: $white;
+                border: 2px solid $darkblue;
+            }
+        }
+    
+        h2{
+            color: $white;
+            width: 400px;
+            text-transform: capitalize;
+            font-weight: 700;
+            margin-left: 10px;
+            margin-top: 10px;
+            font-size: 22px;
+        }
+    
+        &__list{
+            display: flex;
+            color: $darkblue;
+            font-size: 18px;
+            font-weight: 700;
+            gap: 3.1rem;
+            justify-content: center;
+        }
+    
+        &__icons{
+            color: $darkblue;
+            display: flex;
+            justify-content: center;
+            margin-top: 1px;
+        }
+    
+        &__icon{
+            font-size: 26px;
+    
+            &:hover{
+                opacity: .7;
+            }
+        }
+    
+        &__buttom{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            border-top: 1px solid $grey;
+            padding-top: 40px;
+            gap: 1rem;
+        }
+
+        &__copy{
+            display: none;
+        }
+    }
+    // hero section finished
+    .hero{
+         width: 100%;
+         height: 1040px;
+         position: relative;
+
+        &__container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        &__image{
+            width: 200px;
+            height: 250px;
+            position: absolute;
+            top: 430px;
+            right: 493px;
+            
+        }
+
+        &__top{
+            font-size: 50px;
+        }
+
+        &__bottom{
+            font-size: 35px;
+        }
+
+        &__text{
+            font-size: 14px;
+        }
+    }
+
+    .explore{
+        width: 100%;
+        height: 980px;
+        position: relative;
+        margin: 0;
+
+        &__image{
+            position: absolute;
+            top: 490px;
+        }
+
+        &__text{
+            display: none;
+        }
+
+      
+   }
+}

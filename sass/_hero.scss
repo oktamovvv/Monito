@@ -1,0 +1,65 @@
+.hero{
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    height: 615px;
+    
+    &__container{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn-second{
+        color: $darkblue;
+        padding: 13px 33px;
+        border-radius: 60px;
+        background-color: transparent;
+        cursor: pointer;
+        border: 1px solid $darkblue;
+        outline: none;
+        transition: .5s ease-in-out;
+        font-size: 14px;
+        font-weight: 700;
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 40px;
+
+        &:hover{
+            color: $white;
+            background-color: $darkblue;
+            border: 2px solid $white;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+
+    &__top{
+        color: $darkblue;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 68px;
+        padding-top: 80px;
+        text-transform: capitalize;
+    }
+
+    &__bottom{
+        color: $darkblue;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 60px;
+        padding-top: 10px;
+        text-transform: capitalize;
+    }
+
+    &__text{
+        color: $grey;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 87%;
+        padding-top: 25px;
+    }
+
+    &__image{
+        width: 800px;
+        height: 1000px;
+    }
+}

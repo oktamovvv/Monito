@@ -1,0 +1,56 @@
+.partners{
+
+    &__btn{
+        color: $darkblue;
+        padding: 13px 46px;
+        border-radius: 60px;
+        background-color: transparent;
+        cursor: pointer;
+        border: 1px solid $darkblue;
+        outline: none;
+        transition: .5s ease-in-out;
+        font-size: 14px;
+        font-weight: 700;
+        
+        &:hover{
+            color: $white;
+            background-color: $darkblue;
+            border: 2px solid $white;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-top: 3rem;
+    }
+
+    &__span{
+        color: $grey;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    &__wrap{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__comp{
+        margin-top: 80px;
+
+        &:hover{
+            opacity: .7;
+        }
+
+    h3{
+        color: $darkblue;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+  }
+}

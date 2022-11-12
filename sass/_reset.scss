@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.btn{
+    color: $white;
+    padding: 13px 33px;
+    border-radius: 60px;
+    background-color: $darkblue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .5s ease-in-out;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    border: 2px solid $darkblue;
+}
+
+.btn:hover{
+    color: $darkblue;
+    background-color: $white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
